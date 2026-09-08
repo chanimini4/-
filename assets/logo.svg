@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-labelledby="dagachiLogoTitle">
+  <title id="dagachiLogoTitle">다가치 로고</title>
+  <!-- Simplified minimal high-five figures (left pair) -->
+  <g fill="#111111">
+    <!-- figure A -->
+    <circle cx="52" cy="46" r="16"/>
+    <path d="M40 66 C24 66 14 78 14 96 L14 150 C14 158 21 164 29 164 C37 164 43 158 43 150 L43 110 L52 110 L52 150 C52 158 58 164 66 164 C74 164 80 158 80 150 L80 96 C80 78 70 66 54 66 Z"/>
+    <path d="M56 70 L76 40 C79 35 86 34 91 37 C96 40 97 47 94 52 L74 82 Z"/>
+    <path d="M88 30 L96 12 M96 24 L102 8 M104 22 L112 10" stroke="#111111" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- figure B -->
+    <circle cx="150" cy="54" r="15"/>
+    <path d="M139 72 C125 72 116 83 116 99 L116 150 C116 157 122 163 129 163 C136 163 142 157 142 150 L142 114 L150 114 L150 150 C150 157 156 163 163 163 C170 163 176 157 176 150 L176 99 C176 83 167 72 153 72 Z"/>
+    <path d="M148 76 L131 50 C128 46 130 40 135 38 C140 36 145 39 147 43 L163 74 Z"/>
+  </g>
+
+  <!-- figure C -->
+  <g fill="#111111">
+    <circle cx="248" cy="52" r="16"/>
+    <path d="M237 71 C221 71 210 84 210 101 L228 150 C231 157 239 160 246 157 C253 154 256 146 253 139 L241 108 L255 108 L243 139 C240 146 243 154 250 157 C257 160 265 157 268 150 L286 101 C286 84 275 71 259 71 Z"/>
+  </g>
+
+  <!-- figure D -->
+  <g fill="#111111">
+    <circle cx="352" cy="46" r="16"/>
+    <path d="M341 66 C327 66 317 78 317 94 L317 150 C317 158 323 164 331 164 C339 164 345 158 345 150 L345 108 L359 108 L359 150 C359 158 365 164 373 164 C381 164 387 158 387 150 L387 94 C387 78 377 66 363 66 Z"/>
+    <path d="M347 70 L327 40 C324 35 317 34 312 37 C307 40 306 47 309 52 L329 82 Z"/>
+    <path d="M308 30 L300 12 M300 24 L294 8 M292 22 L284 10" stroke="#111111" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="0" y="196" font-family="'Pretendard','Noto Sans KR',-apple-system,sans-serif" font-size="34" font-weight="800" letter-spacing="4" fill="#111111">dagachi</text>
+</svg>
