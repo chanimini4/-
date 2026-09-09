@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>다가치 | 테스트 드라이브</title>
+<meta name="description" content="다가치 팀방 생성, 초대, 활동 기록, 상호평가 흐름을 직접 눌러볼 수 있는 체험판입니다.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="test-drive.css">
+</head>
+<body class="lab-body">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/logo-mark.png" alt="다가치 로고" class="brand-logo">
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="index.html#problem">문제 제기</a>
+      <a href="index.html#solution">해결 방법</a>
+      <a href="test-drive.html" class="nav-active">테스트 드라이브</a>
+      <a href="index.html#contact">문의하기</a>
+    </nav>
+    <a href="index.html#contact" class="btn btn-primary btn-small">문의하기</a>
+  </div>
+</header>
+
+<main class="lab-main">
+  <div class="container">
+    <p class="eyebrow">TEST DRIVE</p>
+    <h1 class="lab-title">다가치, 직접 눌러보세요</h1>
+    <p class="lab-sub">
+      실제 서비스와 같은 흐름으로 팀방을 만들고, 초대 코드로 팀원·교수님을 초대하고,
+      활동을 기록하고, 상호평가까지 해볼 수 있는 체험판입니다.
+    </p>
+    <p class="lab-disclaimer">
+      이 페이지의 데이터는 <strong>이 브라우저에만</strong> 저장돼요. 다른 사람과 실제로
+      공유되지 않는 프로토타입 체험판이니, 마음껏 만들고 지워보세요.
+    </p>
+  </div>
+
+  <div class="container">
+    <div id="app" class="lab-app" aria-live="polite"></div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <img src="assets/logo-mark-white.png" alt="다가치 로고" class="footer-logo">
+    <p class="footer-tagline">다같이 해서 더 가치 있는 팀플</p>
+    <p class="footer-copy">© 2026 dagachi. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="test-drive.js"></script>
+</body>
+</html>
